@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-24T12:54:02.668Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="mgTVSTRfas71mZ3TmES9" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-24T13:16:04.254Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="2GdLt0Ko3T5sa0AQsp_r" type="github">
   <diagram id="6bhDk9Nqx493JYlKX9rv" name="第 1 页">
     <mxGraphModel dx="870" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -55,11 +55,12 @@
         <mxCell id="SYudrVi0JuG7DiuoIWpX-13" value="3.返回服务标识" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="330" y="200" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SYudrVi0JuG7DiuoIWpX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="SYudrVi0JuG7DiuoIWpX-15" target="SYudrVi0JuG7DiuoIWpX-5">
+        <mxCell id="SYudrVi0JuG7DiuoIWpX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="SYudrVi0JuG7DiuoIWpX-5">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="260" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="355" y="230" />
-              <mxPoint x="410" y="230" />
+              <mxPoint x="450" y="190" />
+              <mxPoint x="410" y="190" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -70,7 +71,7 @@
           <mxGeometry x="220" y="260" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SYudrVi0JuG7DiuoIWpX-17" value="创建共享页" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="230" width="70" height="30" as="geometry" />
+          <mxGeometry x="430" y="230" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
