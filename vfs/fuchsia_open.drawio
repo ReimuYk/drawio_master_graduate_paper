@@ -1,1 +1,91 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T16:27:42.996Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" version="20.5.3" etag="G7A9U2Uwx9lmEvKIarhf" type="github"><diagram id="7afIn6UXLu-LbnzqftXu">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-30T16:32:05.287Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="jI59D4jgYctmaexhpO98" version="20.5.3" type="github">
+  <diagram id="7afIn6UXLu-LbnzqftXu" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-2" value="类型 FAT32&lt;br&gt;挂载路径 /fat" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-5" value="类型 tmpfs&lt;br&gt;挂载路径 /" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="106" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-6" value="类型 EXT4&lt;br&gt;挂载路径 /ext" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="575" y="205" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-8" value="类型 FAT32&lt;br&gt;挂载路径 /fat/subfat" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="1" source="tHfRNbbcMTJ4Syi-T5XC-10" target="tHfRNbbcMTJ4Syi-T5XC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-10" value="MP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="137" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="1" source="tHfRNbbcMTJ4Syi-T5XC-12" target="tHfRNbbcMTJ4Syi-T5XC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-12" value="MP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="488" y="137" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="1" source="tHfRNbbcMTJ4Syi-T5XC-14" target="tHfRNbbcMTJ4Syi-T5XC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-14" value="MP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="236" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="185" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-16" value="用户进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="185" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-17" value="虚拟根 = /&lt;br&gt;CWD = /" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-18" value="open(&quot;/fat/subfat/file&quot;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="135" y="157" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-20" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="190" as="sourcePoint" />
+            <mxPoint x="450" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="236" as="sourcePoint" />
+            <mxPoint x="370" y="236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="340" as="sourcePoint" />
+            <mxPoint x="280" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-23" value="①将请求发送给&quot;/&quot;路径解析" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="127" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-24" value="②将请求发送给&quot;/fat&quot;路径解析" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="205" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tHfRNbbcMTJ4Syi-T5XC-25" value="③将请求发送给&quot;/fat/subfat&quot;处理open" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="300" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
